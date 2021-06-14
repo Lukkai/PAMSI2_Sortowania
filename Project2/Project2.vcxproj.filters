@@ -27,6 +27,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\Downloads\Projekt-nr1-master\Projekt-nr1-master\Projekt nr 1.docx" />
+    <None Include="..\..\..\..\Dropbox\Mój komputer (LAPTOP-EEMU0JPK)\Documents\STUDIA\PAMSI\sorty\projekt2_dane.csv" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\Downloads\Projekt-nr1-master\Projekt-nr1-master\Sorting.h">
