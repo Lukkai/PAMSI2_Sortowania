@@ -139,18 +139,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Downloads\Projekt-nr1-master\Projekt-nr1-master\main.cpp" />
-    <ClCompile Include="..\..\..\..\Downloads\Projekt-nr1-master\Projekt-nr1-master\Sorting.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <Text Include="..\..\..\..\Downloads\Projekt-nr1-master\Projekt-nr1-master\CMakeLists.txt" />
+    <Text Include="projekt2_dane.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\Downloads\Projekt-nr1-master\Projekt-nr1-master\Projekt nr 1.docx" />
     <None Include="..\..\..\..\Dropbox\Mój komputer (LAPTOP-EEMU0JPK)\Documents\STUDIA\PAMSI\sorty\projekt2_dane.csv" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Downloads\Projekt-nr1-master\Projekt-nr1-master\Sorting.h" />
+    <ClCompile Include="filter.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Sorting.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sorting.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
